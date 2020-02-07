@@ -13,8 +13,7 @@
 ActiveRecord::Schema.define(version: 6) do
 
   create_table "cities", force: :cascade do |t|
-    t.string  "name"
-    t.integer "neighborhood_id"
+    t.string "name"
   end
 
   create_table "listings", force: :cascade do |t|
@@ -47,9 +46,7 @@ ActiveRecord::Schema.define(version: 6) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string  "name"
-    t.integer "host_id"
-    t.integer "guest_id"
+    t.string "name"
   end
 
 end

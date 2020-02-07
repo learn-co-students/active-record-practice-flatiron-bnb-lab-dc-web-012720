@@ -16,7 +16,8 @@ describe City do
   end
 
   context 'listings' do
-    let(:user) { User.create(name: "user") }
+    let(:user) { 
+      User.create(name: "user") }
     let(:fidi) { Neighborhood.create(name: 'Fi Di', city: nyc) }
     let!(:listing) do
       Listing.create(
