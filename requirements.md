@@ -1,21 +1,21 @@
 <!--! Table Requirements -->
 
-<!-- Review.create(
+Review.create(
       description: "This place was great!",
       rating: 5,
       guest: logan,
       reservation: reservation
-    ) -->
-<!-- Reservation.create(
+    )
+Reservation.create(
       checkin: '2014-04-25',
       checkout: '2014-04-30',
       listing: listing,
       guest: logan
-    ) -->
-<!-- User.create(name: "Katie")  -->
-<!-- Neighborhood.create(name: 'Brighton Beach', city: nyc) -->
-<!-- City.create(name: 'NYC')  -->
-  <!-- Listing.create(
+    )
+User.create(name: "Katie") 
+Neighborhood.create(name: 'Brighton Beach', city: nyc)
+City.create(name: 'NYC') 
+Listing.create(
       address: '123 Main Street',
       listing_type: "private room",
       title: "Beautiful Apartment on Main Street",
@@ -23,7 +23,7 @@
       price: 50.00,
       neighborhood: financial_district,
       host: amanda
-    ) -->
+    )
 
 <!-- ! Model Requirements -->
 <!-- *City -->
@@ -40,27 +40,27 @@
 <!-- listing.niehgborhood.name -->
 <!-- listing.host -->
 <!-- listing.host.name -->
-<!-- listing.reservations -->
-<!-- listing.reviews -->
-<!-- listing.guest -->
+listing.reservations
+listing.reviews
+listing.guest
 <!-- *neighborhoods -->
-<!-- self.name -->
-<!-- self.city -->
-<!-- self.listings -->
+self.name
+self.city
+self.listings
 <!-- *Reservation -->
-<!-- reservation.checkin -->
-<!-- reservation.checkout -->
-<!-- reservation.guest -->
-<!-- reservation.listing -->
+reservation.checkin
+reservation.checkout
+reservation.guest
+reservation.listing
 
 <!-- *Reviews -->
-<!-- review.description -->
-<!-- review.rating -->
-<!-- review.guest
-review.reservation -->
+review.description
+review.rating
+review.guest
+review.reservation
 <!-- *Users -->
-<!-- user.name -->
-<!-- user.listings -->
-<!-- user.reservations -->
-<!-- user.trips -->
-<!-- user.reviews -->
+user.name
+user.listings
+user.reservations
+user.trips
+user.reviews
