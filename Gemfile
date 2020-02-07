@@ -6,6 +6,7 @@ gem 'rails', '~>5.0.7.1'
 gem "sinatra-activerecord"
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~>1.3.6'
+gem 'pry'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
